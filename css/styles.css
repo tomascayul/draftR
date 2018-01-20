@@ -1,0 +1,23 @@
+body {
+width : 70%;
+margin-left : auto;
+margin-right : auto;
+padding : 0px;
+}
+
+hr{
+	width: 40%;
+}
+.jumbotron{
+	background-color: white;
+	padding-bottom: 0px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
