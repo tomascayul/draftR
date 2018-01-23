@@ -3,7 +3,8 @@
 <head>
   <title>Curso R</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -17,10 +18,12 @@
 <body>
 
 <div class="jumbotron text-center">
-  <p> Capacitaciones Tomás presenta </p>
+  <p class="namePress"> Capacitaciones Yo Aprendo presenta </p>
   <hr/>
-  <h1>Aprender <span id="rSoft">R</span> te será especialmente útil para <span id="resaltadoHeader">generar tablas y gráficos</span> de forma rápida y sencilla </h1>
+  <h1 class="titleh1">Aprender <span class="lead R">R</span> te será especialmente útil para <span id="resaltadoHeader">generar tablas y gráficos</span> de forma rápida y sencilla </h1>
   <p>Resize this responsive page to see the effect!</p> 
+
+  <button type="button" class="btn btn-primary">¡Accede AHORA!</button>
 </div>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -31,24 +34,24 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/banner0.jpg" width="100%" height="30%">
+      <img src="img/banner0.jpg"  class="imgCarousel" width="100%" height="30%">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <h3 class="titleCarousel">Angeles</h3>
+        <p class="textCarousel">We had such a great!</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="img/banner0.jpg" width="100%" height="30%">
+      <img src="img/banner0.jpg"  class="imgCarousel" width="100%" height="30%">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3 class="titleCarousel">Chicago</h3>
+        <p class="textCarousel">Thank you, Chicago!</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="img/banner0.jpg" width="100%" height="30%">
+      <img src="img/banner0.jpg"  class="imgCarousel" width="100%" height="30%">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3 class="titleCarousel">Temuco</h3>
+        <p class="textCarousel">We love the Apple!</p>
       </div>   
     </div>
   </div>
@@ -74,35 +77,41 @@
 
   <div class="row">
 
-    <!-- Redes sociales -->
-    <!-- <div class="col-sm-2 list-group">
-      <a href="https://www.facebook.com/TomasCayul" target="_blank"> <img src="img/facebook.png" class="rrss"></a>
-      <a href="https://www.facebook.com/TomasCayul" target="_blank"> <img src="img/twitter.png" class="rrss"></a>
-      <a href="https://www.facebook.com/TomasCayul" target="_blank"> <img src="img/instagram.png" class="rrss"></a>
-    </div> -->
-
-    <!-- about me -->
+      <!-- about me -->
     <div class="col-sm-6">
+      <div class="card">
+
+	    <div class="media">
+	    	<div class="media-left">
+	      		<img src="img/calendar.png" class="media-object">
+	    	</div>
+	    	<div class="media-body">
+	      		<h4 class="media-heading mediaTitle1"> Miercoles</h4>
+	      		<h4 class="media-heading mediaTitle2"> 19 de febrero</h4>
+	      		<p  class="mediaText">a las 10:00h</p>
+	    	</div>
+	  	</div>
+
                
-      <div class="card" style="width:250px">
-        <img class="card-img-top img-fluid" src="img/foto_perfil.jpeg" alt="Card image" style="width:100%">
+        <img class="card-img-top imgYo" src="img/foto_perfil.jpeg">
         <div class="card-body">
-          <h4 class="card-title">Tomás Cayul</h4>
-          <p class="card-text">Ingeniero en Recursos Naturales </p>
-          <a href="#" class="btn btn-primary">Ver CV</a>
+          <h4 class="card-title">Presentado por</h4>
+          <p class="card-text">Tomás Cayul </p>
+          <div class="text-center">
+          <a href="#" class="btn btn-info">Ver CV</a>
+          </div>
         </div>
       </div>    
     </div>
     
     <!-- Contents -->
-    <div class="col-sm-6">
+    <div class="col-sm-6 contents">
         <div class="contador">
-            <h2 id="textCount"> El curso comenzara en: </h2>
+            <h3 id="textCount"> El curso comenzara en: </h3>
             <div id="reloj"></div>  
         </div>
-      <h3>Contens</h3>        
-      <h2 class="voyEnsen">Voy a enseñarte</h2>
-              
+      <h3 id="titleContents">Voy a enseñarte</h3>        
+            
         <ul class="contenidos">
           <li>Instalación de Herramientas</li>
           <li>Introducción al Lenguaje</li>
@@ -112,6 +121,21 @@
     </div>
   </div>
 </div>
+
+<br>
+
+<div class="alert alert-info text-center">
+  	<strong>Importante!</strong> Cupos limitados.
+</div>
+
+<div class="text-center">
+	<p class="aprovecha">Aprovecha esta oportunidad de formación</p>
+</div>
+
+<div class="text-center">
+	<button type="button" class="btn btn-info btnSend">Si! Reserva mi asistencia AHORA</button>
+</div>
+
 
 <!-- javeScript -->
 <script src="js/oclock.js"></script>

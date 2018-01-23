@@ -3,21 +3,180 @@ width : 70%;
 margin-left : auto;
 margin-right : auto;
 padding : 0px;
+font-size:13px;
 }
 
 hr{
 	width: 40%;
+	color: #5F6471;
 }
+
 .jumbotron{
 	background-color: white;
 	padding-bottom: 0px;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+.R{
+	font-size: 1.8em;
+	color: #2167BA;
 }
+
+.titleh1{
+	text-transform: uppercase;
+	color: #4F4E47;
+	font-size: 1.8em;
+}
+
+.namePress{
+	color: #5F6471;
+}
+
+.card{
+	width: 100%;
+	margin-left : auto;
+	margin-right : auto;
+	padding : 0px;
+	margin-top: 20px;
+	background-color: #333534;
+}
+
+.contents{
+	width: 100%;
+	margin-left : auto;
+	margin-right : auto;
+	padding : 0px;
+	margin-top: 20px;
+	/*background-color: #333534;	*/
+}
+
+.imgYo{
+	width: 50%;
+	height: 50%;
+	margin-left : auto;
+	margin-right : auto;
+	/*padding: 10px;*/
+	border-radius: 50%;
+	border: 5px solid #E5E5E5;
+
+}
+
+.card-title{
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+	color: white;
+}
+
+.card-text{
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+.aprovecha{
+	background-color: #272822;
+	color: white;
+}
+
+.btnSend{
+	width: 100%;
+}
+
+/*item calendar*/
+.media-object{
+	padding: 10px;
+}
+
+.mediaTitle1{
+	margin-top: 14px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+.mediaTitle2{
+	padding-top: 5px;
+	line-height: 0px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+.mediaText{
+	line-height: 30px;
+	font-size: 1em;
+	color: white;
+}
+
+@media screen and (max-width:600px){
+ img {
+ max-width:290px;
+ }
+
+.titleh1 {
+	font-size: 1em;
+}
+
+.btn-primary{
+	font-size: 1em;
+}
+
+/*carrusel*/
+.titleCarousel .textCarousel{
+	font-size: 0.6em;	
+}
+.imgCarousel{
+	height: 130px;
+} 
+
+/*botnes de rrss*/
+.social ul li a {
+		padding: 5px 7.5px;
+}
+
+/*efecto botoenes rrss*/
+.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 5px 15px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+/*fecha curso*/
+.media-body h4{
+	font-size: 1.1em;
+	line-height: 5px;
+}
+.media-body p{
+	font-size: 0.9em;
+	line-height: 20px;
+}
+/*imagen fecha*/
+.media-left img{
+	width: 70px;
+	/*height: auto;*/
+}
+
+.btn-info{
+	font-size: 1em;
+}
+
+.contador #textCount{
+	font-size: 1.2em;
+}
+
+#titleContents{
+	font-size: 1.5em;
+}
+
+.contenidos li{
+	font-size: 1.1em;
+}
+
+.imgYo{
+	border: 3px solid #E5E5E5;
+}
+
+}
+
+
+
