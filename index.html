@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/oclock.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
 
@@ -23,7 +24,7 @@
   <h1 class="titleh1">Aprender <span class="lead R">R</span> te será especialmente útil para <span id="resaltadoHeader">generar tablas y gráficos</span> de forma rápida y sencilla </h1>
   <!-- <p>Resize this responsive page to see the effect!</p>  -->
 
-  <button type="button" class="btn btn-primary">¡Accede AHORA!</button>
+   <a href="#formContact"> <button type="button" class="btn btn-primary">¡Accede AHORA!</button> </a>
 </div>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -133,7 +134,26 @@
 </div>
 
 <div class="text-center">
-	<button type="button" class="btn btn-info btnSend">Si! Reserva mi asistencia AHORA</button>
+	<a href="#formContact">  <button type="button" class="btn btn-info btnSend">Si! Reserva mi asistencia AHORA</button> </a>
+	   
+</div>
+
+
+
+<div class="container" id="formContact">
+	<form class="formulario">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" placeholder="Tu nombre">
+
+		<label for="email">Correo:</label>
+		<input type="email" id="email" placeholder="Tu correo">
+
+		<label for="mensaje">Mensaje</label>
+		<textarea id="mensaje" placeholder="Escribe aquí tu comentario"></textarea>
+
+		<input type="submit" value="Enviar">
+
+	</form>
 </div>
 
 
@@ -142,3 +162,5 @@
 
 </body>
 </html>
+
+

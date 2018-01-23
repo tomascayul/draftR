@@ -176,6 +176,13 @@ hr{
 	border: 3px solid #E5E5E5;
 }
 
+.formulario{
+	width: 100%;
+	margin-left : auto;
+	margin-right : auto;
+	padding : 10px;
+}
+
 }
 
 
